@@ -52,7 +52,12 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+body {
+    background: #999;
+}
+
 .top-bar {
+    margin-top : 20px;
     background: #430c68;
 
     .menu {
@@ -63,4 +68,8 @@
 
 .top-bar-right {
     color: #fff;
+}
+
+.cool {
+    height: 390px;
 }
