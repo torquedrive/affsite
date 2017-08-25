@@ -52,8 +52,15 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+.top-bar {
+    background: #430c68;
 
-/*body {
-    color: white;
-    background: #000;
-}*/
+    .menu {
+        background: #430c68;
+        color: #fff;
+    }
+}
+
+.top-bar-right {
+    color: #fff;
+}
