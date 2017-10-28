@@ -4,3 +4,8 @@ npm-debug.log
 bower_components
 dist
 *.swp
+<<<<<<< HEAD
+=======
+.babelrc
+.bowerrc
+>>>>>>> f2cb369b167ddd676cf9369c1c49cc169884b9ea
