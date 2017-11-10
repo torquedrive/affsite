@@ -177,10 +177,10 @@ hr {
 // Hero Section
 
 .hero-section {
-  /*background: /*url('https://static.pexels.com/photos/248064/pexels-photo-248064.jpeg') 50% no-repeat;
-  background-size: cover;*/
-  background: #333;
-  border: 1px solid #fff;
+  background: url("../img/happy.jpg") 50% no-repeat;
+  background-size: cover;
+  /*background: #333;*/
+  //border: 1px solid #fff;
   height: $hero-height;
   text-align: center;
   display: flex;
@@ -199,6 +199,10 @@ hr {
 
 div.four-up-feature-header h2{
   margin-bottom: 1rem;
+}
+
+.round {
+  border-radius: 50%;
 }
 
 .marketing-site-footer {
@@ -253,7 +257,10 @@ div.four-up-feature-header h2{
 }
 
 .marketing-site-footer-bottom {
-  background: darken($marketing-site-footer-bg, 20%);
+  /*background: darken($marketing-site-footer-bg, 20%);*/
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
   padding: 1rem 0;
 
   p,
