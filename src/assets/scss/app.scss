@@ -72,13 +72,16 @@ hr {
 .topbar-responsive {
   background: $topbar-responsive-bg;
   padding: 1rem 1.5rem;
-  /*border: 1px solid red;*/
+  //border: 1px solid #fff;
 
   .topbar-responsive-logo {
     color: $white;
     vertical-align: middle;
     font-family: 'Vollkorn SC', serif;
-    //font-size: 12px;
+    font-size: 25px;
+  }
+  .top-bar-right{
+    //border: 1px solid #fff;
   }
 
   .menu {
@@ -204,9 +207,9 @@ div.four-up-feature-header h2{
   margin-bottom: 1rem;
 }
 
-.round {
+/*.round {
   border-radius: 50%;
-}
+}*/
 
 .marketing-site-footer {
   background: $marketing-site-footer-bg;
