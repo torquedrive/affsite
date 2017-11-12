@@ -53,8 +53,8 @@
 
 
 body {
-  background: #2c3840;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 hr {
@@ -75,7 +75,7 @@ hr {
   //border: 1px solid #fff;
 
   .topbar-responsive-logo {
-    color: $white;
+    color: $black;
     vertical-align: middle;
     font-family: 'Vollkorn SC', serif;
     font-size: 25px;
@@ -92,11 +92,11 @@ hr {
     }
 
     a {
-      color: $white;
+      color: $black;
       transition: color 0.15s ease-in;
 
       &:hover {
-        color: lighten($topbar-responsive-bg, 60%);
+        color: #c0c0c0;//($topbar-responsive-bg, 60%);
       }
 
       @media screen and (max-width: 39.9375em) {
