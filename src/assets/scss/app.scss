@@ -53,18 +53,23 @@
 
 
 body {
-  background: #fff;
+  background: #333;
   color: #000;
+}
+
+.bgcolor {
+  background: #fff;
 }
 
 hr {
   color:#999;
   height: 1px;
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
 }
 
 .grid-container {
   max-width: 65rem;
+  background: #fff;
  // border: 1px solid red;
 }
 
@@ -214,11 +219,11 @@ div.four-up-feature-header h2{
 
 .marketing-site-footer {
   background: $marketing-site-footer-bg;
-  color: lighten($marketing-site-footer-bg, 40%);
+  color: #000;
   padding: 2rem 0 0;
 
   .marketing-site-footer-menu-social a {
-    color: $white;
+    color: $black;
   }
 
   .column-block {
@@ -237,13 +242,13 @@ div.four-up-feature-header h2{
 }
 
 .marketing-site-footer-name {
-  color: $white;
+  color: $black;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
 .marketing-site-footer-title {
-  color: $white;
+  color: $black;
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
@@ -265,8 +270,8 @@ div.four-up-feature-header h2{
 
 .marketing-site-footer-bottom {
   /*background: darken($marketing-site-footer-bg, 20%);*/
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
   margin-bottom: 20px;
   padding: 1rem 0;
 
