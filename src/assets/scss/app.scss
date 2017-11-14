@@ -55,6 +55,7 @@
 body {
   background: #333;
   color: #000;
+  margin: 20px 0 20px 0;
 }
 
 .bgcolor {
@@ -68,7 +69,7 @@ hr {
 }
 
 .grid-container {
-  max-width: 65rem;
+  max-width: 70rem;
   background: #fff;
  // border: 1px solid red;
 }
@@ -270,8 +271,8 @@ div.four-up-feature-header h2{
 
 .marketing-site-footer-bottom {
   /*background: darken($marketing-site-footer-bg, 20%);*/
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
   margin-bottom: 20px;
   padding: 1rem 0;
 
@@ -284,7 +285,11 @@ div.four-up-feature-header h2{
     justify-content: flex-end;
 
     a {
-      color: lighten($marketing-site-footer-bg, 40%);
+      color: #000;
+    }
+
+    a:hover {
+      color: #333;
     }
 
     @include breakpoint(medium down) {
